@@ -38,6 +38,8 @@ end
 
 local dfpwm = require("cc.audio.dfpwm")
 
+-- command usage:
+-- amp <play/stop> <link> [volume] [mode(c/s)]
 local cmd, link, volume, mode = ...
 
 if cmd == "play" then
